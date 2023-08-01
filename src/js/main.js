@@ -19,7 +19,7 @@ if (macosPlatforms.indexOf(platform) !== -1) {
 } else if (!os && /Linux/.test(platform)) {
   os = 'Linux';
 } else {
-  os = `${platform}.${userAgent}`;
+  os = `${platform}`;
 }
 
 let infoString = document.createElement('div');
